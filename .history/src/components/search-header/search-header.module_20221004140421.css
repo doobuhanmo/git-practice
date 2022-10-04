@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    height: 4rem;
+    padding: 0.5rem;
+    background: black;
+    color: white;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.img {
+
+}
+
+.title  {
+}
+
+.input {
+
+}
+
+.button {
+
+}
