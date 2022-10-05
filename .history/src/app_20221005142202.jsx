@@ -27,9 +27,10 @@ function App({ youtube }) {
     <div className={styles.app}>
       <SearchHeader onSearch={search} />
     <section className={styles.content}>        
-    {selectedVideo && <div className={styles.VideoDetail}><VideoDetail video={selectedVideo} /></div>}
+      <div className={styles.VideoDetail}>
+        {selectedVideo && <VideoDetail video={selectedVideo} />}</div>
       <div className={styles.list}>
-        <VideoList videos={videos} onVideoClick = {selectVideo} display={selectedVideo? 'list' : 'grid' } /></div>
+        <VideoList videos={videos} onVideoClick = {selectVideo}/></div>
       
     </section>  
 

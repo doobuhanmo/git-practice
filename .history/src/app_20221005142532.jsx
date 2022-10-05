@@ -29,7 +29,7 @@ function App({ youtube }) {
     <section className={styles.content}>        
     {selectedVideo && <div className={styles.VideoDetail}><VideoDetail video={selectedVideo} /></div>}
       <div className={styles.list}>
-        <VideoList videos={videos} onVideoClick = {selectVideo} display={selectedVideo? 'list' : 'grid' } /></div>
+        <VideoList videos={videos} onVideoClick = {selectVideo}/></div>
       
     </section>  
 

@@ -3,7 +3,7 @@ import styles from './video_item.module.css';
 
 const VideoItem = ({ video, video: { snippet }, onVideoClick, display }) => {
   const displayType = display === 'list' ? styles.list : styles.grid;
-  return (
+  return
   <li className={`${styles.container} ${displayType}`} onClick={() => onVideoClick(video)}>
     <div className={styles.video}>
       <img
@@ -17,7 +17,6 @@ const VideoItem = ({ video, video: { snippet }, onVideoClick, display }) => {
       </div>
     </div>
   </li>
-  )
 };
 
 export default VideoItem;
