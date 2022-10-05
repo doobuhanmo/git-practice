@@ -32,7 +32,6 @@ class Youtube {
 
       },
     });
-    return response.data.item;
   }
 }
 

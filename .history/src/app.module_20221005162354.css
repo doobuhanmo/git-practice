@@ -16,7 +16,7 @@
 
 }
 
-@media screen and (max-width: 480rem) {
+@media screen and {max-width: 480rem;{
   .content {
     flex-direction: column;
   }
